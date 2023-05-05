@@ -1,0 +1,9 @@
+﻿  KMComms.cpp
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\KMComms.cpp(44,10): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "DWORD64" auf.
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\KMComms.cpp(44,10): warning C4313: „printf“: „%p“ in der Formatzeichenfolge steht mit dem Argument 1 vom Typ „DWORD64“ in Konflikt.
+  Code wird generiert.
+  2 of 6 functions (33.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  KernelUmCommLib.vcxproj -> C:\Users\luis\source\repos\KernelUmCommLib\Release\KernelUmCommLib.exe

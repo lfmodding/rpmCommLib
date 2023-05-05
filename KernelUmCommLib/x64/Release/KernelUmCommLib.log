@@ -1,0 +1,31 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: Das Zwischenverzeichnis (x64\Release\) enthält freigegebene Dateien aus einem anderen Projekt (KernelUmCommLib.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
+  main.cpp
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\KMComms.h(17,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "DRIVER_DEVICE", wenn keine Variable deklariert wurde
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(18,41): warning C4311: "Typumwandlung": Zeigerverkürzung von "BYTE *" zu "UINT32"
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(18,41): warning C4302: "Typumwandlung": Verkürzung von "BYTE *" in "UINT32"
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(36,16): warning C4244: "Initialisierung": Konvertierung von "T" in "int", möglicher Datenverlust
+          with
+          [
+              T=UINT64
+          ]
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(96,9): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uintptr_t" auf.
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(102,9): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "UINT64" auf.
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(127,11): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "3" weist aber den Typ "UINT64" auf.
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\KMComms.h(52,11): warning C4244: "Argument": Konvertierung von "double" in "DWORD", möglicher Datenverlust
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(36,64): message : Siehe Verweis auf die gerade kompilierte Instanziierung "T driver::rpm<UINT64>(UINT64)" der Funktions-Vorlage.
+          with
+          [
+              T=UINT64
+          ]
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\KMComms.h(83,11): warning C4244: "Argument": Konvertierung von "double" in "DWORD", möglicher Datenverlust
+C:\Users\luis\source\repos\KernelUmCommLib\KernelUmCommLib\main.cpp(40,60): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void driver::wpm<float>(UINT64,T)" der Funktions-Vorlage.
+          with
+          [
+              T=float
+          ]
+  Code wird generiert.
+  1 of 20 functions ( 5.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  KernelUmCommLib.vcxproj -> C:\Users\luis\source\repos\KernelUmCommLib\x64\Release\UM.exe

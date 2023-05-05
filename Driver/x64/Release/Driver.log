@@ -1,0 +1,15 @@
+﻿  Building 'Driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  mem.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(61,26): warning C4083: ")" erwartet; Bezeichner "_VCRUNTIME_DISABLED_WARNINGS" gefunden
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(111,1): warning C4005: "_CRT_STRINGIZE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,1): message : Siehe vorherige Definition von "_CRT_STRINGIZE"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(114,1): warning C4005: "_CRT_WIDE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,1): message : Siehe vorherige Definition von "_CRT_WIDE"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(155,1): warning C4005: "__CRTDECL": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,1): message : Siehe vorherige Definition von "__CRTDECL"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(16,26): warning C4083: ")" erwartet; Bezeichner "_VCRUNTIME_DISABLED_WARNINGS" gefunden
+C:\Users\luis\source\repos\KernelUmCommLib\Driver\mem.cpp(48,71): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+  Driver.vcxproj -> C:\Users\luis\source\repos\KernelUmCommLib\x64\Release\Driver.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
